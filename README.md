@@ -1,4 +1,4 @@
-# RhythmiBrush: Paint with Music 🎨🎵
+# PaintVision: Paint with Music 🎨🎵
 
 **Paint with music. Our tool adjusts brush strokes based on your song. Color shifts with melody, size with energy. A blend of art and sound.**
 ## How It Works
@@ -15,7 +15,7 @@
 - **Hardware**: Ensure you have a working camera.
 
 ## Setup
-1. Navigate to the RhythmiBrush directory.
+1. Navigate to the directory.
 2. Make sure you have all the prerequisites installed.
 3. Navigate to the src directory, and create a file named api_keys.py containing 3 lines:
 ```bash
@@ -23,7 +23,7 @@ clientID = "[YOUR CLIENT ID]"
 clientSecret = "[YOUR CLIENT SECRET]"
 clientURI = "[SOME URI REDIRECT LINK]" # because we are using spotipy api, it should look something like http://localhost/7777 or any 4 digit port number
 ```
-4. After that, go back to the main directory, and run .\RhythmiBrush.bat for Windows and ./RhythmiBrush.sh for Linux/MacOS
+4. After that, go back to the main directory, and run .\PaintVision.bat for Windows and ./PaintVision.sh for Linux/MacOS
 5. It should automatically configure the python environment for you, and install the dependencies within, for any issues please refer to the [TroubleShooting](#troubleshooting) section
 
 ## Running the Project
@@ -32,7 +32,7 @@ clientURI = "[SOME URI REDIRECT LINK]" # because we are using spotipy api, it sh
 
 Run the following in the command prompt:
 ```bash
-.\RhythmiBrush.bat
+.\PaintVision.bat
 ```
 And enter your audio input device when prompted.
 
@@ -40,7 +40,7 @@ And enter your audio input device when prompted.
 Run the following in the command prompt:
 ```bash
 chmod +x run_project.sh
-./RhythmiBrush.sh
+./PaintVision.sh
 ```
 And enter your audio input device when prompted.
 
